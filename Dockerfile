@@ -20,6 +20,8 @@ COPY . .
 
 RUN npm install
 
+RUN npm serve
+
 RUN npm run build --prod
 
 ### STAGE 2:RUN ###
