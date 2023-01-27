@@ -20,7 +20,7 @@ COPY . .
 
 RUN npm install
 
-RUN npm run build --configuration production
+RUN npm run build --prod
 
 ### STAGE 2:RUN ###
 # Defining nginx image to be used
