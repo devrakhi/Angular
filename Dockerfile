@@ -20,7 +20,7 @@ COPY . .
 
 RUN npm install
 
-RUN npm serve
+RUN npm e2e
 
 RUN npm run build --prod
 
